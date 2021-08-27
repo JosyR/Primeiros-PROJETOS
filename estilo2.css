@@ -1,0 +1,65 @@
+html {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	letter-spacing: normal;
+	color: blue;
+	background-color: aquamarine;
+}
+
+body
+{ 
+background: url(Imagens/serviço.jpg);
+background-size: cover;
+
+}
+
+.display {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	height: 100vh;
+}
+form {
+	padding: 25px;
+	border-radius: 10px 20px ;
+	border-color: seashell;
+	background-color:rgb(40, 56, 97);
+	border-style: solid 70px;
+	height: 60vh;
+	margin:60px ;
+	color: rgb(255, 251, 251);
+}
+
+button
+{
+	border-radius: 10px 20px;
+	float: right;
+	margin-right: auto;
+
+}
+
+.minhaclasse {
+	margin: 20px;
+	height: 30px;
+}
+input {
+	border:none rgb(22, 25, 43);
+	border-bottom: 2px solid beige;
+	border-radius:4px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	box-shadow: 1px 1px 2px #333333;
+	-moz-box-shadow: 1px 1px 2px #333333;
+	-webkit-box-shadow: 1px 1px 2px #333333;
+	text-shadow: beige;
+}
+input:focus {
+	outline: none;
+}
+.minha{
+text-align:center;
+font-family: monospace Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color: rgb(32, 7, 7);
+
+
+}
+
